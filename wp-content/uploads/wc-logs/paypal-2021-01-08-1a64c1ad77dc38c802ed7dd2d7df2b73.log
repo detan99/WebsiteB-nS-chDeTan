@@ -1,0 +1,83 @@
+2021-01-08T01:05:09+00:00 INFO Generating payment form for order 466. Notify URL: http://localhost:69/Meiquansheng1/wc-api/WC_Gateway_Paypal/
+2021-01-08T01:05:09+00:00 INFO PayPal Request Args for order 466: Array
+(
+    [cmd] => _cart
+    [business] => lqboss1020304050@gmail.com
+    [no_note] => 1
+    [currency_code] => USD
+    [charset] => utf-8
+    [rm] => 1
+    [upload] => 1
+    [return] => http://localhost:69/Meiquansheng1/checkout/order-received/466/?key=wc_order_0F54cUiZVZEIE&utm_nooverride=1
+    [cancel_return] => http://localhost:69/Meiquansheng1/cart/?cancel_order=true&order=wc_order_0F54cUiZVZEIE&order_id=466&redirect&_wpnonce=e1096e492f
+    [page_style] => 
+    [image_url] => 
+    [paymentaction] => sale
+    [invoice] => WC-466
+    [custom] => {"order_id":466,"order_key":"wc_order_0F54cUiZVZEIE"}
+    [notify_url] => http://localhost:69/Meiquansheng1/wc-api/WC_Gateway_Paypal/
+    [first_name] => ***
+    [last_name] => ***
+    [address1] => ***
+    [address2] => ***
+    [city] => ***
+    [state] => ***
+    [zip] => ***
+    [country] => ***
+    [email] => ***@***
+    [night_phone_a] => ***
+    [night_phone_b] => ***
+    [address_override] => 0
+    [no_shipping] => 0
+    [tax_cart] => 0.00
+    [discount_amount_cart] => 25.00
+    [item_name_1] => Áo thun xẻ vạt, Xẻ tà Unisex
+    [quantity_1] => 1
+    [amount_1] => 10
+    [item_number_1] => 
+    [item_name_2] => ÁO THUN UNISEX
+    [quantity_2] => 2
+    [amount_2] => 20
+    [item_number_2] => 
+    [bn] => WooThemes_Cart
+)
+
+2021-01-08T01:42:18+00:00 INFO Generating payment form for order 470. Notify URL: http://localhost:69/Meiquansheng1/wc-api/WC_Gateway_Paypal/
+2021-01-08T01:42:18+00:00 INFO PayPal Request Args for order 470: Array
+(
+    [cmd] => _cart
+    [business] => lqboss1020304050@gmail.com
+    [no_note] => 1
+    [currency_code] => USD
+    [charset] => utf-8
+    [rm] => 1
+    [upload] => 1
+    [return] => http://localhost:69/Meiquansheng1/checkout/order-received/470/?key=wc_order_eqC9y9hEKbkNs&utm_nooverride=1
+    [cancel_return] => http://localhost:69/Meiquansheng1/cart/?cancel_order=true&order=wc_order_eqC9y9hEKbkNs&order_id=470&redirect&_wpnonce=5c384e44bc
+    [page_style] => 
+    [image_url] => 
+    [paymentaction] => sale
+    [invoice] => WC-470
+    [custom] => {"order_id":470,"order_key":"wc_order_eqC9y9hEKbkNs"}
+    [notify_url] => http://localhost:69/Meiquansheng1/wc-api/WC_Gateway_Paypal/
+    [first_name] => ***
+    [last_name] => ***
+    [address1] => ***
+    [address2] => ***
+    [city] => ***
+    [state] => ***
+    [zip] => ***
+    [country] => ***
+    [email] => ***@***
+    [night_phone_a] => ***
+    [night_phone_b] => ***
+    [address_override] => 0
+    [no_shipping] => 0
+    [tax_cart] => 0.00
+    [item_name_1] => Quần Nam 1
+    [quantity_1] => 1
+    [amount_1] => 10
+    [item_number_1] => 
+    [bn] => WooThemes_Cart
+)
+

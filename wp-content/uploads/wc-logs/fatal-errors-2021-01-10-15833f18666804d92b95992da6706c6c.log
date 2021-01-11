@@ -1,0 +1,854 @@
+2021-01-10T13:47:29+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(8, 'Async Request')
+#5 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\NHASACHDETAN\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php on line 287
+
+2021-01-10T13:48:00+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(9, 'WP Cron')
+#5 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\NHASACHDETAN\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php on line 287
+
+2021-01-10T13:49:00+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(10, 'WP Cron')
+#5 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\NHASACHDETAN\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php on line 287
+
+2021-01-10T13:49:01+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(11, 'Async Request')
+#5 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\NHASACHDETAN\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php on line 287
+
+2021-01-10T13:50:12+00:00 CRITICAL Uncaught ValueError: Path cannot be empty in C:\xampp\htdocs\NHASACHDETAN\wp-admin\includes\class-wp-filesystem-direct.php:66
+Stack trace:
+#0 C:\xampp\htdocs\NHASACHDETAN\wp-admin\includes\class-wp-filesystem-direct.php(66): fopen('', 'wb')
+#1 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\astra-sites\inc\classes\class-astra-sites-importer-log.php(255): WP_Filesystem_Direct->put_contents(NULL, '\r\nComplete ', 438)
+#2 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\astra-sites\inc\classes\class-astra-sites-importer.php(633): Astra_Sites_Importer_Log::add('Complete ')
+#3 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): Astra_Sites_Importer->after_batch_complete('')
+#4 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(64): do_action('astra_sites_ima...')
+#7 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(329): WP_Background_Process_Astra->complete()
+#8 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#9 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): WP_Background_Process->handle_cron_healthcheck()
+#10 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#11 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#12 C:\xampp\htdocs\NHASACHDETAN\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#13 {main}
+  thrown in C:\xampp\htdocs\NHASACHDETAN\wp-admin\includes\class-wp-filesystem-direct.php on line 66
+
+2021-01-10T13:52:39+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(13, 'Async Request')
+#5 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\NHASACHDETAN\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php on line 287
+
+2021-01-10T13:54:50+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(14, 'WP Cron')
+#5 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\NHASACHDETAN\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php on line 287
+
+2021-01-10T13:54:56+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(15, 'Async Request')
+#5 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\NHASACHDETAN\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php on line 287
+
+2021-01-10T13:55:51+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(16, 'WP Cron')
+#5 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\NHASACHDETAN\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php on line 287
+
+2021-01-10T13:56:01+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(17, 'Async Request')
+#5 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\NHASACHDETAN\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php on line 287
+
+2021-01-10T13:56:59+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(18, 'WP Cron')
+#5 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\NHASACHDETAN\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php on line 287
+
+2021-01-10T13:57:29+00:00 CRITICAL Uncaught TypeError: fclose(): Argument #1 ($stream) must be of type resource, bool given in C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php:147
+Stack trace:
+#0 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php(147): fclose(false)
+#1 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php(207): Cartflows_Log_Handler_File->open('cartflows')
+#2 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php(99): Cartflows_Log_Handler_File->add('2021-01-10T13:5...', 'cartflows')
+#3 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\logger\class-cartflows-wc-logger.php(144): Cartflows_Log_Handler_File->handle(1610287049, 'info', 'Start-Cartflows...', Array)
+#4 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\class-cartflows-logger.php(98): Cartflows_WC_Logger->log('info', 'Start-Cartflows...', Array)
+#5 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\class-cartflows-frontend.php(60): Cartflows_Logger->log('Start-Cartflows...')
+#6 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): Cartflows_Frontend->redirect_to_thankyou_page('http://localhos...', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#7 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(212): WP_Hook->apply_filters('http://localhos...', Array)
+#8 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\class-wc-order.php(1585): apply_filters('woocommerce_get...', 'http://localhos...', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#9 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-payment-gateway.php(226): WC_Order->get_checkout_order_received_url()
+#10 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\gateways\cod\class-wc-gateway-cod.php(337): WC_Payment_Gateway->get_return_url(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#11 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(959): WC_Gateway_COD->process_payment(1450)
+#12 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1171): WC_Checkout->process_order_payment(1450, 'cod')
+#13 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(465): WC_Checkout->process_checkout()
+#14 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): WC_AJAX::checkout('')
+#15 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#16 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#17 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(90): do_action('wc_ajax_checkou...')
+#18 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): WC_AJAX::do_wc_ajax('')
+#19 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(false, Array)
+#20 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#21 C:\xampp\htdocs\NHASACHDETAN\wp-includes\template-loader.php(13): do_action('template_redire...')
+#22 C:\xampp\htdocs\NHASACHDETAN\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#23 C:\xampp\htdocs\NHASACHDETAN\index.php(17): require('C:\\xampp\\htdocs...')
+#24 {main}
+  thrown in C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php on line 147
+
+2021-01-10T13:58:00+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(21, 'WP Cron')
+#5 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\NHASACHDETAN\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php on line 287
+
+2021-01-10T13:58:12+00:00 CRITICAL Uncaught TypeError: fclose(): Argument #1 ($stream) must be of type resource, bool given in C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php:147
+Stack trace:
+#0 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php(147): fclose(false)
+#1 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php(207): Cartflows_Log_Handler_File->open('cartflows')
+#2 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php(99): Cartflows_Log_Handler_File->add('2021-01-10T13:5...', 'cartflows')
+#3 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\logger\class-cartflows-wc-logger.php(144): Cartflows_Log_Handler_File->handle(1610287092, 'info', 'Start-Cartflows...', Array)
+#4 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\class-cartflows-logger.php(98): Cartflows_WC_Logger->log('info', 'Start-Cartflows...', Array)
+#5 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\class-cartflows-frontend.php(60): Cartflows_Logger->log('Start-Cartflows...')
+#6 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): Cartflows_Frontend->redirect_to_thankyou_page('http://localhos...', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#7 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(212): WP_Hook->apply_filters('http://localhos...', Array)
+#8 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\class-wc-order.php(1585): apply_filters('woocommerce_get...', 'http://localhos...', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#9 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-payment-gateway.php(226): WC_Order->get_checkout_order_received_url()
+#10 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\gateways\cod\class-wc-gateway-cod.php(337): WC_Payment_Gateway->get_return_url(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#11 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(959): WC_Gateway_COD->process_payment(1451)
+#12 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1171): WC_Checkout->process_order_payment(1451, 'cod')
+#13 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(465): WC_Checkout->process_checkout()
+#14 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): WC_AJAX::checkout('')
+#15 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#16 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#17 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(90): do_action('wc_ajax_checkou...')
+#18 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): WC_AJAX::do_wc_ajax('')
+#19 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(false, Array)
+#20 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#21 C:\xampp\htdocs\NHASACHDETAN\wp-includes\template-loader.php(13): do_action('template_redire...')
+#22 C:\xampp\htdocs\NHASACHDETAN\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#23 C:\xampp\htdocs\NHASACHDETAN\index.php(17): require('C:\\xampp\\htdocs...')
+#24 {main}
+  thrown in C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php on line 147
+
+2021-01-10T13:58:19+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(24, 'Async Request')
+#5 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\NHASACHDETAN\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php on line 287
+
+2021-01-10T13:59:05+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(25, 'WP Cron')
+#5 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\NHASACHDETAN\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php on line 287
+
+2021-01-10T13:59:23+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(26, 'Async Request')
+#5 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\NHASACHDETAN\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php on line 287
+
+2021-01-10T13:59:53+00:00 CRITICAL Uncaught TypeError: fclose(): Argument #1 ($stream) must be of type resource, bool given in C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php:147
+Stack trace:
+#0 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php(147): fclose(false)
+#1 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php(207): Cartflows_Log_Handler_File->open('cartflows')
+#2 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php(99): Cartflows_Log_Handler_File->add('2021-01-10T13:5...', 'cartflows')
+#3 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\logger\class-cartflows-wc-logger.php(144): Cartflows_Log_Handler_File->handle(1610287193, 'info', 'Start-Cartflows...', Array)
+#4 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\class-cartflows-logger.php(98): Cartflows_WC_Logger->log('info', 'Start-Cartflows...', Array)
+#5 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\class-cartflows-frontend.php(60): Cartflows_Logger->log('Start-Cartflows...')
+#6 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): Cartflows_Frontend->redirect_to_thankyou_page('http://localhos...', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#7 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(212): WP_Hook->apply_filters('http://localhos...', Array)
+#8 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\class-wc-order.php(1585): apply_filters('woocommerce_get...', 'http://localhos...', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#9 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-payment-gateway.php(226): WC_Order->get_checkout_order_received_url()
+#10 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\gateways\cod\class-wc-gateway-cod.php(337): WC_Payment_Gateway->get_return_url(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#11 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(959): WC_Gateway_COD->process_payment(1452)
+#12 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1171): WC_Checkout->process_order_payment(1452, 'cod')
+#13 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(465): WC_Checkout->process_checkout()
+#14 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): WC_AJAX::checkout('')
+#15 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#16 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#17 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(90): do_action('wc_ajax_checkou...')
+#18 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): WC_AJAX::do_wc_ajax('')
+#19 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(false, Array)
+#20 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#21 C:\xampp\htdocs\NHASACHDETAN\wp-includes\template-loader.php(13): do_action('template_redire...')
+#22 C:\xampp\htdocs\NHASACHDETAN\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#23 C:\xampp\htdocs\NHASACHDETAN\index.php(17): require('C:\\xampp\\htdocs...')
+#24 {main}
+  thrown in C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php on line 147
+
+2021-01-10T14:00:28+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(27, 'WP Cron')
+#5 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\NHASACHDETAN\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php on line 287
+
+2021-01-10T14:00:31+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(30, 'Async Request')
+#5 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\NHASACHDETAN\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php on line 287
+
+2021-01-10T14:01:29+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(31, 'WP Cron')
+#5 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\NHASACHDETAN\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php on line 287
+
+2021-01-10T14:01:42+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(32, 'Async Request')
+#5 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\NHASACHDETAN\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php on line 287
+
+2021-01-10T14:01:46+00:00 CRITICAL Uncaught TypeError: fclose(): Argument #1 ($stream) must be of type resource, bool given in C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php:147
+Stack trace:
+#0 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php(147): fclose(false)
+#1 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php(207): Cartflows_Log_Handler_File->open('cartflows')
+#2 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php(99): Cartflows_Log_Handler_File->add('2021-01-10T14:0...', 'cartflows')
+#3 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\logger\class-cartflows-wc-logger.php(144): Cartflows_Log_Handler_File->handle(1610287306, 'info', 'Start-Cartflows...', Array)
+#4 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\class-cartflows-logger.php(98): Cartflows_WC_Logger->log('info', 'Start-Cartflows...', Array)
+#5 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\class-cartflows-frontend.php(60): Cartflows_Logger->log('Start-Cartflows...')
+#6 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): Cartflows_Frontend->redirect_to_thankyou_page('http://localhos...', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#7 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(212): WP_Hook->apply_filters('http://localhos...', Array)
+#8 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\class-wc-order.php(1585): apply_filters('woocommerce_get...', 'http://localhos...', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#9 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-payment-gateway.php(226): WC_Order->get_checkout_order_received_url()
+#10 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\gateways\cod\class-wc-gateway-cod.php(337): WC_Payment_Gateway->get_return_url(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#11 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(959): WC_Gateway_COD->process_payment(1453)
+#12 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1171): WC_Checkout->process_order_payment(1453, 'cod')
+#13 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(465): WC_Checkout->process_checkout()
+#14 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): WC_AJAX::checkout('')
+#15 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#16 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#17 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(90): do_action('wc_ajax_checkou...')
+#18 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): WC_AJAX::do_wc_ajax('')
+#19 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(false, Array)
+#20 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#21 C:\xampp\htdocs\NHASACHDETAN\wp-includes\template-loader.php(13): do_action('template_redire...')
+#22 C:\xampp\htdocs\NHASACHDETAN\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#23 C:\xampp\htdocs\NHASACHDETAN\index.php(17): require('C:\\xampp\\htdocs...')
+#24 {main}
+  thrown in C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php on line 147
+
+2021-01-10T14:02:27+00:00 CRITICAL Uncaught TypeError: fclose(): Argument #1 ($stream) must be of type resource, bool given in C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php:147
+Stack trace:
+#0 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php(147): fclose(false)
+#1 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php(207): Cartflows_Log_Handler_File->open('cartflows')
+#2 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php(99): Cartflows_Log_Handler_File->add('2021-01-10T14:0...', 'cartflows')
+#3 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\logger\class-cartflows-wc-logger.php(144): Cartflows_Log_Handler_File->handle(1610287347, 'info', 'Start-Cartflows...', Array)
+#4 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\class-cartflows-logger.php(98): Cartflows_WC_Logger->log('info', 'Start-Cartflows...', Array)
+#5 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\class-cartflows-frontend.php(60): Cartflows_Logger->log('Start-Cartflows...')
+#6 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): Cartflows_Frontend->redirect_to_thankyou_page('http://localhos...', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#7 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(212): WP_Hook->apply_filters('http://localhos...', Array)
+#8 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\class-wc-order.php(1585): apply_filters('woocommerce_get...', 'http://localhos...', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#9 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-payment-gateway.php(226): WC_Order->get_checkout_order_received_url()
+#10 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\gateways\cod\class-wc-gateway-cod.php(337): WC_Payment_Gateway->get_return_url(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#11 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(959): WC_Gateway_COD->process_payment(1454)
+#12 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1171): WC_Checkout->process_order_payment(1454, 'cod')
+#13 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(465): WC_Checkout->process_checkout()
+#14 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): WC_AJAX::checkout('')
+#15 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#16 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#17 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(90): do_action('wc_ajax_checkou...')
+#18 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): WC_AJAX::do_wc_ajax('')
+#19 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(false, Array)
+#20 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#21 C:\xampp\htdocs\NHASACHDETAN\wp-includes\template-loader.php(13): do_action('template_redire...')
+#22 C:\xampp\htdocs\NHASACHDETAN\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#23 C:\xampp\htdocs\NHASACHDETAN\index.php(17): require('C:\\xampp\\htdocs...')
+#24 {main}
+  thrown in C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php on line 147
+
+2021-01-10T14:02:34+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(35, 'WP Cron')
+#5 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\NHASACHDETAN\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php on line 287
+
+2021-01-10T14:02:46+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(37, 'Async Request')
+#5 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\NHASACHDETAN\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php on line 287
+
+2021-01-10T14:03:34+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(38, 'WP Cron')
+#5 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\NHASACHDETAN\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php on line 287
+
+2021-01-10T14:04:12+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(39, 'Async Request')
+#5 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\NHASACHDETAN\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php on line 287
+
+2021-01-10T14:04:17+00:00 CRITICAL Uncaught TypeError: fclose(): Argument #1 ($stream) must be of type resource, bool given in C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php:147
+Stack trace:
+#0 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php(147): fclose(false)
+#1 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php(207): Cartflows_Log_Handler_File->open('cartflows')
+#2 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php(99): Cartflows_Log_Handler_File->add('2021-01-10T14:0...', 'cartflows')
+#3 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\logger\class-cartflows-wc-logger.php(144): Cartflows_Log_Handler_File->handle(1610287457, 'info', 'Start-Cartflows...', Array)
+#4 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\class-cartflows-logger.php(98): Cartflows_WC_Logger->log('info', 'Start-Cartflows...', Array)
+#5 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\class-cartflows-frontend.php(60): Cartflows_Logger->log('Start-Cartflows...')
+#6 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): Cartflows_Frontend->redirect_to_thankyou_page('http://localhos...', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#7 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(212): WP_Hook->apply_filters('http://localhos...', Array)
+#8 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\class-wc-order.php(1585): apply_filters('woocommerce_get...', 'http://localhos...', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#9 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-payment-gateway.php(226): WC_Order->get_checkout_order_received_url()
+#10 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\gateways\cod\class-wc-gateway-cod.php(337): WC_Payment_Gateway->get_return_url(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#11 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(959): WC_Gateway_COD->process_payment(1455)
+#12 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1171): WC_Checkout->process_order_payment(1455, 'cod')
+#13 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(465): WC_Checkout->process_checkout()
+#14 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): WC_AJAX::checkout('')
+#15 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#16 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#17 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(90): do_action('wc_ajax_checkou...')
+#18 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): WC_AJAX::do_wc_ajax('')
+#19 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(false, Array)
+#20 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#21 C:\xampp\htdocs\NHASACHDETAN\wp-includes\template-loader.php(13): do_action('template_redire...')
+#22 C:\xampp\htdocs\NHASACHDETAN\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#23 C:\xampp\htdocs\NHASACHDETAN\index.php(17): require('C:\\xampp\\htdocs...')
+#24 {main}
+  thrown in C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php on line 147
+
+2021-01-10T14:04:35+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(42, 'WP Cron')
+#5 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\NHASACHDETAN\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php on line 287
+
+2021-01-10T14:05:28+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(43, 'Async Request')
+#5 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\NHASACHDETAN\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php on line 287
+
+2021-01-10T14:05:45+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(44, 'WP Cron')
+#5 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\NHASACHDETAN\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php on line 287
+
+2021-01-10T14:06:01+00:00 CRITICAL Uncaught TypeError: fclose(): Argument #1 ($stream) must be of type resource, bool given in C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php:147
+Stack trace:
+#0 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php(147): fclose(false)
+#1 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php(207): Cartflows_Log_Handler_File->open('cartflows')
+#2 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php(99): Cartflows_Log_Handler_File->add('2021-01-10T14:0...', 'cartflows')
+#3 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\logger\class-cartflows-wc-logger.php(144): Cartflows_Log_Handler_File->handle(1610287561, 'info', 'Start-Cartflows...', Array)
+#4 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\class-cartflows-logger.php(98): Cartflows_WC_Logger->log('info', 'Start-Cartflows...', Array)
+#5 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\class-cartflows-frontend.php(60): Cartflows_Logger->log('Start-Cartflows...')
+#6 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): Cartflows_Frontend->redirect_to_thankyou_page('http://localhos...', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#7 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(212): WP_Hook->apply_filters('http://localhos...', Array)
+#8 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\class-wc-order.php(1585): apply_filters('woocommerce_get...', 'http://localhos...', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#9 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-payment-gateway.php(226): WC_Order->get_checkout_order_received_url()
+#10 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\gateways\cod\class-wc-gateway-cod.php(337): WC_Payment_Gateway->get_return_url(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#11 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(959): WC_Gateway_COD->process_payment(1456)
+#12 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1171): WC_Checkout->process_order_payment(1456, 'cod')
+#13 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(465): WC_Checkout->process_checkout()
+#14 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): WC_AJAX::checkout('')
+#15 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#16 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#17 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(90): do_action('wc_ajax_checkou...')
+#18 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): WC_AJAX::do_wc_ajax('')
+#19 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(false, Array)
+#20 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#21 C:\xampp\htdocs\NHASACHDETAN\wp-includes\template-loader.php(13): do_action('template_redire...')
+#22 C:\xampp\htdocs\NHASACHDETAN\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#23 C:\xampp\htdocs\NHASACHDETAN\index.php(17): require('C:\\xampp\\htdocs...')
+#24 {main}
+  thrown in C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php on line 147
+
+2021-01-10T14:06:36+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(45, 'Async Request')
+#5 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\NHASACHDETAN\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php on line 287
+
+2021-01-10T14:10:30+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(48, 'Async Request')
+#5 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\NHASACHDETAN\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php on line 287
+
+2021-01-10T14:11:32+00:00 CRITICAL Uncaught TypeError: fclose(): Argument #1 ($stream) must be of type resource, bool given in C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php:147
+Stack trace:
+#0 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php(147): fclose(false)
+#1 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php(207): Cartflows_Log_Handler_File->open('cartflows')
+#2 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php(99): Cartflows_Log_Handler_File->add('2021-01-10T14:1...', 'cartflows')
+#3 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\logger\class-cartflows-wc-logger.php(144): Cartflows_Log_Handler_File->handle(1610287892, 'info', 'Start-Cartflows...', Array)
+#4 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\class-cartflows-logger.php(98): Cartflows_WC_Logger->log('info', 'Start-Cartflows...', Array)
+#5 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\class-cartflows-frontend.php(60): Cartflows_Logger->log('Start-Cartflows...')
+#6 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): Cartflows_Frontend->redirect_to_thankyou_page('http://localhos...', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#7 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(212): WP_Hook->apply_filters('http://localhos...', Array)
+#8 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\class-wc-order.php(1585): apply_filters('woocommerce_get...', 'http://localhos...', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#9 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-payment-gateway.php(226): WC_Order->get_checkout_order_received_url()
+#10 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\gateways\cod\class-wc-gateway-cod.php(337): WC_Payment_Gateway->get_return_url(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#11 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(959): WC_Gateway_COD->process_payment(1457)
+#12 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1171): WC_Checkout->process_order_payment(1457, 'cod')
+#13 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(465): WC_Checkout->process_checkout()
+#14 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): WC_AJAX::checkout('')
+#15 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#16 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#17 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(90): do_action('wc_ajax_checkou...')
+#18 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): WC_AJAX::do_wc_ajax('')
+#19 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(false, Array)
+#20 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#21 C:\xampp\htdocs\NHASACHDETAN\wp-includes\template-loader.php(13): do_action('template_redire...')
+#22 C:\xampp\htdocs\NHASACHDETAN\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#23 C:\xampp\htdocs\NHASACHDETAN\index.php(17): require('C:\\xampp\\htdocs...')
+#24 {main}
+  thrown in C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php on line 147
+
+2021-01-10T14:11:37+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(49, 'Async Request')
+#5 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\NHASACHDETAN\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php on line 287
+
+2021-01-10T14:11:50+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(59, 'WP Cron')
+#5 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\NHASACHDETAN\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php on line 287
+
+2021-01-10T14:13:13+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(60, 'WP Cron')
+#5 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\NHASACHDETAN\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php on line 287
+
+2021-01-10T14:17:21+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(64, 'Async Request')
+#5 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\NHASACHDETAN\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php on line 287
+
+2021-01-10T14:17:56+00:00 CRITICAL Uncaught TypeError: fclose(): Argument #1 ($stream) must be of type resource, bool given in C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php:147
+Stack trace:
+#0 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php(147): fclose(false)
+#1 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php(207): Cartflows_Log_Handler_File->open('cartflows')
+#2 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php(99): Cartflows_Log_Handler_File->add('2021-01-10T14:1...', 'cartflows')
+#3 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\logger\class-cartflows-wc-logger.php(144): Cartflows_Log_Handler_File->handle(1610288276, 'info', 'Start-Cartflows...', Array)
+#4 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\class-cartflows-logger.php(98): Cartflows_WC_Logger->log('info', 'Start-Cartflows...', Array)
+#5 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\class-cartflows-frontend.php(60): Cartflows_Logger->log('Start-Cartflows...')
+#6 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): Cartflows_Frontend->redirect_to_thankyou_page('http://localhos...', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#7 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(212): WP_Hook->apply_filters('http://localhos...', Array)
+#8 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\class-wc-order.php(1585): apply_filters('woocommerce_get...', 'http://localhos...', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#9 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-payment-gateway.php(226): WC_Order->get_checkout_order_received_url()
+#10 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\gateways\cod\class-wc-gateway-cod.php(337): WC_Payment_Gateway->get_return_url(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#11 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(959): WC_Gateway_COD->process_payment(1458)
+#12 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1171): WC_Checkout->process_order_payment(1458, 'cod')
+#13 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(465): WC_Checkout->process_checkout()
+#14 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): WC_AJAX::checkout('')
+#15 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#16 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#17 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(90): do_action('wc_ajax_checkou...')
+#18 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): WC_AJAX::do_wc_ajax('')
+#19 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(false, Array)
+#20 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#21 C:\xampp\htdocs\NHASACHDETAN\wp-includes\template-loader.php(13): do_action('template_redire...')
+#22 C:\xampp\htdocs\NHASACHDETAN\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#23 C:\xampp\htdocs\NHASACHDETAN\index.php(17): require('C:\\xampp\\htdocs...')
+#24 {main}
+  thrown in C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\cartflows\classes\logger\class-cartflows-log-handler-file.php on line 147
+
+2021-01-10T14:20:04+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(65, 'WP Cron')
+#5 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\NHASACHDETAN\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php on line 287
+
+2021-01-10T14:24:06+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(68, 'WP Cron')
+#5 C:\xampp\htdocs\NHASACHDETAN\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\NHASACHDETAN\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\NHASACHDETAN\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\NHASACHDETAN\wp-includes\class-wp-hook.php on line 287
+
